@@ -27,9 +27,7 @@ void heapify(ITEM items[], int n, int i)
     int left = 2 * i + 1;
     int right = 2 * i + 2;
 
-    if (left < n &&
-        items[left].profit_weight_ratio >
-        items[largest].profit_weight_ratio)
+    if (left < n && items[left].profit_weight_ratio > items[largest].profit_weight_ratio)
     {
         largest = left;
     }

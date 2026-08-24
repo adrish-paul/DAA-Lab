@@ -1,3 +1,8 @@
+/*5.2 Aim of the program: Huffman coding assigns variable length code words to fixed length
+input characters based on their frequencies or probabilities of occurrence. Given a set of
+characters along with their frequency of occurrences, write a c program to construct a Huffman
+tree.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
