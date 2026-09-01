@@ -1,4 +1,10 @@
-// Prim's Algorithm using Min-Priority Queue
+/*
+Aim of the program: Given an undirected weighted connected graph G(V, E) and starring
+vertex ‘s’. Maintain a Min-Priority Queue ‘Q’ from the vertex set V and apply Prim’s algorithm
+to
+● Find the minimum spanning tree T(V, E’). Display the cost adjacency matrix of ‘T’.
+● Display total cost of the minimum spanning tree T.
+*/
 
 #include <stdio.h>
 #include <time.h>
