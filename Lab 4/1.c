@@ -151,7 +151,6 @@ int main() {
         case 6: {
             int pos = 0;
 
-            /* Find oldest person */
             for (int i = 1; i < minN; i++)
                 if (minHeap[i].age > minHeap[pos].age)
                     pos = i;
